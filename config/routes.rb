@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  #sets the url mapping to /users
+  resources :microposts
   resources :users
   root 'users#index'
 
